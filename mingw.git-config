@@ -1,0 +1,4 @@
+git config --global merge.tool meld
+git config --global mergetool.meld.cmd 'meld.exe "$BASE" "$LOCAL" "$REMOTE" "$MERGED"'
+git config --global diff.tool meld
+git config --global difftool.meld.cmd 'meld.exe "$LOCAL" "$REMOTE"'
